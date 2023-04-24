@@ -1,0 +1,24 @@
+<header>
+  <nav class="navbar">
+    <h1><img src="https://www.villapettini.it/wp-content/uploads/2023/03/cropped-LOGO-PETTINI-ARANCIONE.png" alt="Logo Villa Pettini"></h1>
+    <div class="toggleButton" (click)="disappear()"><button><i class="fa-solid fa-bars"></i><span>Menu</span></button></div>
+    <ul>
+      <li>Home</li>
+      <li>Fondazione Giovanni Paolo II</li>
+      <li>Punto Famiglia Villa Pettini</li>
+      <li>Qoelet Impresa Sociale Srl</li>
+      <li>Contatti</li>
+    </ul>
+  </nav>
+</header>
+
+<div class="modalMenu disappear">
+  <button (click)="disappear()"><i class="fa-solid fa-x"></i></button>
+  <ul>
+    <li>Home</li>
+    <li>Fondazione Giovanni Paolo II</li>
+    <li>Punto Famiglia Villa Pettini</li>
+    <li>Qoelet Impresa Sociale Srl</li>
+    <li>Contatti</li>
+  </ul>
+</div>

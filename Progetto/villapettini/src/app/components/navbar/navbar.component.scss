@@ -1,0 +1,74 @@
+.navbar {
+  position: relative;
+
+  h1 {
+    display: inline-block;
+    margin: 0px;
+
+    img {
+      width: 70px;
+    }
+  }
+
+  .toggleButton {
+    display: inline-block;
+    position: absolute;
+    right: 3vw;
+    top: 5vw;
+
+    button {
+      border: none;
+      background-color: white;
+      margin: 0px 1vw;
+      i{
+        margin: 0px 1vw;
+      }
+    }
+  }
+
+  ul {
+    display: none;
+
+    li {
+      display: inline-block;
+      margin: 0px 1vw;
+    }
+
+    @media (min-width: 992px) {
+      display: inline-block;
+    }
+  }
+}
+
+.modalMenu {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  button {
+    position: absolute;
+    right: 1vw;
+
+    i {
+      font-size: 3rem;
+    }
+  }
+
+  ul {
+    text-align: center;
+    margin: 30vh auto 0px;
+    list-style: none;
+    li{
+      font-size: 18px;
+      text-transform: uppercase;
+      margin: 1.5vh 5vw;
+    }
+  }
+}
+
+.disappear{
+  display:none;
+}
